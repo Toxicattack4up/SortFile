@@ -200,9 +200,9 @@ void sort_file(vector<string>& fileNames, const int& file_size)
 int main()
 {
     string finalfile = "finalfile.txt";
-    const int size = 800000000; // Массив размером 1 миллиард (может быть слишком большим для обычной системы)
+    const int size = 800000000; // Массив размером 800 миллионов (может быть слишком большим для обычной системы)
     const int size_file = 80000000; // Размер элементов записываемых в файл
-    vector<int> rand_arr(size); // Выделение памяти под массив размером 1 миллиард
+    vector<int> rand_arr(size); // Выделение памяти под массив размером 800 млн.
     vector<string> fileNames; // Хранит имена созданных файлов
 
     srand(time(nullptr)); // Инициализация генерации случайных чисел на основе времени
